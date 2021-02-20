@@ -1,5 +1,5 @@
 # Unix Text Processing Cheatsheet
-Simple command line oneliners for text processing. Done on awk + sed + grep
+Simple command line one liners for text processing. Done on awk + sed + grep
 
 
 ### Command-line utilities 
@@ -7,7 +7,7 @@ Simple command line oneliners for text processing. Done on awk + sed + grep
 grep is a powerful command-line tool that allows to search files for lines that match a regex and writes each matching line to standard output.
 
 ```diff
-# If you want to leave initial file unchanged, you can use ">" and create new file with query changes applied:
+# To leave initial file unchanged, you can use ">" and create new file with query changes applied:
 file.txt > new_file.txt 
 
 # Find text string by patterns:
